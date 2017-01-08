@@ -1,1 +1,120 @@
-hola
+<!DOCTYPE html>
+<html class="calcite">
+<head>
+  <meta charset="UTF-8">
+  <title>Calcite Bootstrap</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="mobile-web-app-capable" content="yes">
+
+
+  <!-- Load Leaflet from CDN-->
+
+  <script src="http://cdn.jsdelivr.net/leaflet/0.7.3/leaflet.js"></script>
+
+   <!-- Load Esri Leaflet from CDN -->
+  <script src="http://cdn.jsdelivr.net/leaflet.esri/1.0.0/esri-leaflet.js"></script>
+  <!--<script src="https://unpkg.com/esri-leaflet-vector"></script>-->
+
+
+  <link rel="stylesheet" href="http://esri.github.io/calcite-maps/dist/css/calcite-maps-bootstrap.min-v0.3.css">
+  <link rel='stylesheet' href='http://esri.github.io/calcite-maps/dist/css/calcite-maps-esri-leaflet.min-v0.3.css'>
+  <link rel="stylesheet" href="http://esri.github.io/calcite-maps/dist/fonts/calcite/calcite-ui.css">
+  <link rel="stylesheet" href="http://cdn.jsdelivr.net/leaflet/0.7.3/leaflet.css" />
+  <link rel='stylesheet' href='http://js.arcgis.com/3.18/esri/themes/calcite/esri/esri.css'>
+  <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body class="calcite">
+
+  <div class="container">
+  <div class="row">
+    <h1 class="col-md-12">Boda de Maria del Mar y Raúl</h1>
+  </div>
+  <div class="row">
+    <div class="col-md-12 col-sm-12 col-xs-12">
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Name</th> 
+            <th>Username</th> 
+          </tr> 
+        </thead> 
+        <tbody> 
+          <tr> 
+            <th scope="row">1</th> 
+            <td>Mark</td> 
+            <td>@mdo</td> 
+          </tr> 
+          <tr> 
+            <th scope="row">2</th> 
+            <td>Jacob</td> 
+            <td>@fat</td> 
+          </tr> 
+          <tr> 
+            <th scope="row">3</th> 
+            <td>Larry</td> 
+            <td>@twitter</td> 
+          </tr> 
+        </tbody> 
+      </table>
+    </div>
+    <div class="col-md-12 col-sm-12 col-xs-12">
+      <ul class="nav nav-tabs" role="tablist">
+        <li role="presentation" class="active">
+          <a href="#mapa" aria-controls="mapa" role="tab" data-toggle="tab">Map</a>
+        </li>
+        <li role="presentation">
+          <a href="#webmap" aria-controls="webmap" role="tab" data-toggle="tab">Form</a>
+        </li>
+      </ul>
+      
+      <div class="tab-content">
+        <div role="tabpanel" class="tab-pane active" id="mapa">
+          <div class="calcite-map">
+            <div id="mapDiv" ></div>
+          </div>
+        
+        </div>
+        <div role="tabpanel" class="tab-pane" id="webmap">
+          <form>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+            </div>
+            <div class="form-group">
+              <label for="exampleInputFile">File input</label>
+              <input type="file" id="exampleInputFile">
+              <p class="help-block">Example block-level help text here.</p>
+            </div>
+            <div class="checkbox">
+              <label>
+                <input type="checkbox"> Check me out
+              </label>
+            </div>
+            <button type="submit" class="btn btn-default">Submit</button>
+          </form>
+        </div>
+      </div>    
+    </div>
+  </div>
+</div>
+  
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="http://esri.github.io/calcite-maps/dist/js/jquery/calcitemaps-v0.3.js"></script>
+    <script src="js/index.js"></script>
+
+</body>
+</html>
+
+  
