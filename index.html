@@ -10,6 +10,7 @@
 
 
   <!-- Load Leaflet from CDN-->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBNSN0VyilMYKG5JHBtZnuYgE9x4LxH82c" async defer></script>
 
   <script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet-src.js"></script>
   <script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=Promise"></script>
@@ -17,6 +18,9 @@
    <!-- Load Esri Leaflet from CDN -->
   <script src="https://unpkg.com/esri-leaflet@2.0.8"></script>
   <!--<script src="https://unpkg.com/esri-leaflet-vector"></script>-->
+  <script src='https://unpkg.com/leaflet.gridlayer.googlemutant@latest/Leaflet.GoogleMutant.js'></script>
+
+
 
 
 
@@ -27,7 +31,11 @@
   <link rel='stylesheet' href='http://js.arcgis.com/3.18/esri/themes/calcite/esri/esri.css'>
   <link rel="stylesheet" href="css/style.css">
 
-
+<style>
+img[src="https://maps.gstatic.com/mapfiles/api-3/images/google_white5.png"]{
+  display: none
+}
+</style>
 </head>
 
 <body class="calcite">
