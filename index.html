@@ -11,21 +11,23 @@
 
   <!-- Load Leaflet from CDN-->
 
-  <script src="http://cdn.jsdelivr.net/leaflet/0.7.3/leaflet.js"></script>
-
+  <script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet-src.js"></script>
+  <script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=Promise"></script>
+  <script src="http://gmaclennan.github.io/leaflet-bing-layer/leaflet-bing-layer.js"></script>
    <!-- Load Esri Leaflet from CDN -->
-  <script src="http://cdn.jsdelivr.net/leaflet.esri/1.0.0/esri-leaflet.js"></script>
+  <script src="https://unpkg.com/esri-leaflet@2.0.8"></script>
   <!--<script src="https://unpkg.com/esri-leaflet-vector"></script>-->
+
 
 
   <link rel="stylesheet" href="http://esri.github.io/calcite-maps/dist/css/calcite-maps-bootstrap.min-v0.3.css">
   <link rel='stylesheet' href='http://esri.github.io/calcite-maps/dist/css/calcite-maps-esri-leaflet.min-v0.3.css'>
   <link rel="stylesheet" href="http://esri.github.io/calcite-maps/dist/fonts/calcite/calcite-ui.css">
-  <link rel="stylesheet" href="http://cdn.jsdelivr.net/leaflet/0.7.3/leaflet.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css" />
   <link rel='stylesheet' href='http://js.arcgis.com/3.18/esri/themes/calcite/esri/esri.css'>
   <link rel="stylesheet" href="css/style.css">
 
-  
+
 </head>
 
 <body class="calcite">
@@ -40,27 +42,27 @@
         <thead>
           <tr>
             <th>#</th>
-            <th>Name</th> 
-            <th>Username</th> 
-          </tr> 
-        </thead> 
-        <tbody> 
-          <tr> 
-            <th scope="row">1</th> 
-            <td>Mark</td> 
-            <td>@mdo</td> 
-          </tr> 
-          <tr> 
-            <th scope="row">2</th> 
-            <td>Jacob</td> 
-            <td>@fat</td> 
-          </tr> 
-          <tr> 
-            <th scope="row">3</th> 
-            <td>Larry</td> 
-            <td>@twitter</td> 
-          </tr> 
-        </tbody> 
+            <th>Name</th>
+            <th>Username</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Mark</td>
+            <td>@mdo</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Jacob</td>
+            <td>@fat</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>Larry</td>
+            <td>@twitter</td>
+          </tr>
+        </tbody>
       </table>
     </div>
     <div class="col-md-12 col-sm-12 col-xs-12">
@@ -72,13 +74,13 @@
           <a href="#webmap" aria-controls="webmap" role="tab" data-toggle="tab">Form</a>
         </li>
       </ul>
-      
+
       <div class="tab-content">
         <div role="tabpanel" class="tab-pane active" id="mapa">
           <div class="calcite-map">
             <div id="mapDiv" ></div>
           </div>
-        
+
         </div>
         <div role="tabpanel" class="tab-pane" id="webmap">
           <form>
@@ -103,11 +105,11 @@
             <button type="submit" class="btn btn-default">Submit</button>
           </form>
         </div>
-      </div>    
+      </div>
     </div>
   </div>
 </div>
-  
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -116,5 +118,7 @@
 
 </body>
 </html>
-
-  
+<!--
+Confirmación de asistencia
+https://docs.google.com/forms/d/11vqfiCJNOB-ZaResxMOb2pJuEraDtdxIdP9-l5mLA4A/edit
+-->
