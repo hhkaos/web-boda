@@ -64,11 +64,21 @@
 	<![endif]-->
 <style>
 @media (max-width: 600px) {
-  #fh5co-gallery,
-  #btn-intereres {
+  #lugares-de-interes-desktop{
     display: none;
   }
 
+}
+@media (min-width: 600px) {
+  #lugares-de-interes-mobile{
+    display: none;
+  }
+}
+.couple-half .groom img, .couple-half .bride img{
+      margin-top: 60px;
+}
+.heart{
+  top: 8rem;
 }
 #fh5co-started .btn{
   line-height: 3.7rem;
@@ -116,7 +126,7 @@ background-position:center 0 !important;
 				<div class="col-xs-10 text-right menu-1">
 					<ul>
             <li><a href="#">Inicio</a></li>
-            <li><a href="#donde-y-cuando">¿Dónde y cuándo</a></li>
+            <li><a href="#donde-y-cuando">Dónde y cuándo</a></li>
             <li><a href="#nosotros">Nosotros</a></li>
             <li id="btn-intereres"><a href="#lugares-de-interes">Lugares de interés</a></li>
             <li><a href="#confirmaciones">Confirmar</a></li>
@@ -203,29 +213,30 @@ background-position:center 0 !important;
 			<div class="couple-wrap animate-box">
 				<div class="couple-half">
 					<div class="groom">
-						<img src="images/raul2.jpg" alt="groom" class="img-responsive">
+						<img src="images/maria2.jpg" alt="groom" class="img-responsive">
 					</div>
 					<div class="desc-groom">
-						<h3>Raúl Jiménez</h3>
+            <h3>María del Mar Cano</h3>
 						<p>
-              Si cuando conocí a María alguien me llega a decir ella iba a ser
-              la madre de mi pequeñajo ... a lo mejor hubiese salido corriendo,
-              pero hoy ya puedo decir que no habrá quien me separe de ellos.
+              Con 11 años coincidimos en un campamento de Ronda (Málaga), en la
+              época universitaria volvimos a coincidir en Granada y cuando ya
+              habían pasado unos años nos reencontramos en Córdoba. Algo bonito
+              estaba escrito.
             </p>
 					</div>
 				</div>
 				<p class="heart text-center"><i class="icon-heart2"></i></p>
 				<div class="couple-half">
 					<div class="bride">
-						<img src="images/maria2.jpg" alt="groom" class="img-responsive">
+						<img src="images/raul2.jpg" alt="groom" class="img-responsive">
 					</div>
 					<div class="desc-bride">
-						<h3>María del Mar Cano</h3>
-						<p>
-              Con 11 años coincidimos en un campamento de Ronda (Málaga), en la
-              época universitaria volvimos a coincidir en Granada y cuando ya
-              habían pasado unos años nos reencontramos en Córdoba. Algo bonito
-              estaba escrito.
+            <h3>Raúl Jiménez</h3>
+            <p>
+              A lo largo de nuestra vida nos cruzamos con miles de personas:
+              en el cole, en las actividades extra escolares, instituto, fiestas,
+              univ., trabajo, ... de todas ellas yo decidí que era con María con
+              la única que quería compartir el resto de mi vida.
             </p>
 					</div>
 				</div>
@@ -287,7 +298,7 @@ background-position:center 0 !important;
 									</div>
                   -->
 									<p>
-                    El cocktel de bienvenidas empezará aproximadamente a las 13:30
+                    El cocktel de bienvenida empezará aproximadamente a las 13:30
                     y durará hasta las 15:00 que llegaremos de hacernos las fotos.
                     Desde las 15:00 a las 18:00 aproximadamente nos daremos una
                     buena comilona (guardad apetito) y desde las 18:00 hasta que
@@ -377,7 +388,7 @@ background-position:center 0 !important;
 								<div class="timeline-body">
 									<p>
                       Una mesecitos más tarde llegó José ( 👶 ), y con él muchas
-                      otras cosas: 🍼 🏻 💩 😴 🤗 😫 😂 😬 😚 💤 ...
+                      otras cosas: 🍼 💩 😴 🤗 😫 😂 😬 😚 💤 ...
                   </p>
 								</div>
 							</div>
@@ -394,8 +405,6 @@ background-position:center 0 !important;
                     Y bueno, este día queremos compartirlo con tod@s vosotros,
                     y que <strong>forméis parte de nuestra historia</strong>: 💒 👰 👨🏻 🎉 💅 👏
                     💪 😭 😬 😎 🤗 🎁 🍴 🍹 🍸 🍷 🍻 🍺 🎊 💘 👯 ... ¡¡y mucho más!!
-
-
                   </p>
 								</div>
 							</div>
@@ -406,13 +415,17 @@ background-position:center 0 !important;
 		</div>
 	</div>
   <div id="fh5co-gallery" class="fh5co-section-gray">
-		<div id="lugares-de-interes" class="container">
+		<div class="container">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
 					<span>Y para los que no conocéis la zona</span>
 					<h2>Lugares de interés</h2>
-					<p>
+					<p id="lugares-de-interes-desktop">
             <a href="mapa/?appid=9e151de9cec744f09b31b9e68309e299"><img src="images/mapa.png" alt="mapa"/></a>
+          </p>
+          <p id="lugares-de-interes-mobile">
+            <img src="images/mapa.png" alt="mapa" style="width:75%"/><br>
+            Sólo disponible desde el PC
           </p>
 				</div>
 			</div>
