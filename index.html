@@ -63,6 +63,13 @@
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
 <style>
+@media (max-width: 600px) {
+  #fh5co-gallery,
+  #btn-intereres {
+    display: none;
+  }
+
+}
 #fh5co-started .btn{
   line-height: 3.7rem;
 }
@@ -109,9 +116,9 @@ background-position:center 0 !important;
 				<div class="col-xs-10 text-right menu-1">
 					<ul>
             <li><a href="#">Inicio</a></li>
-            <li><a href="#donde-y-cuando">Dónde y cuándo</a></li>
+            <li><a href="#donde-y-cuando">¿Dónde y cuándo</a></li>
             <li><a href="#nosotros">Nosotros</a></li>
-            <li><a href="#lugares-de-interes">Lugares de interés</a></li>
+            <li id="btn-intereres"><a href="#lugares-de-interes">Lugares de interés</a></li>
             <li><a href="#confirmaciones">Confirmar</a></li>
             <!--
 						<li class="active"><a href="index.html">Home</a></li>
@@ -188,7 +195,7 @@ background-position:center 0 !important;
 		<div id="donde-y-cuando" class="container">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
-					<h2>Dónde y cuándo?</h2>
+					<h2>¿Dónde y cuándo?</h2>
 					<h3>Sábado 16 de Septiembre en Vera, Almería</h3>
 					<p>Si te hemos enviado esta invitación es porque estás invitado/a!</p>
 				</div>
@@ -214,7 +221,8 @@ background-position:center 0 !important;
 					</div>
 					<div class="desc-bride">
 						<h3>María del Mar Cano</h3>
-						<p> con 11años coincidimos en un campamento de Ronda (Málaga), en la
+						<p>
+              Con 11 años coincidimos en un campamento de Ronda (Málaga), en la
               época universitaria volvimos a coincidir en Granada y cuando ya
               habían pasado unos años nos reencontramos en Córdoba. Algo bonito
               estaba escrito.
@@ -231,7 +239,7 @@ background-position:center 0 !important;
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
 					<span>Vayamos por partes</span>
-					<h2>¿Cómo nos organizamos?</h2>
+					<h2>¿Cómo nos organizaremos?</h2>
 				</div>
 			</div>
 			<div class="row">
@@ -243,7 +251,7 @@ background-position:center 0 !important;
 									<h3>Celebración religiosa</h3>
 									<div class="event-col" style="width:100%">
 										<i class="icon-clock"></i>
-										<span>12:30 PM - 13:00 PM</span>
+										<span>12:30 PM - 13:15 PM</span>
 									</div>
                   <!--
 									<div class="event-col">
@@ -251,7 +259,13 @@ background-position:center 0 !important;
 										<span>Viernes 15</span>
 										<span>Septiembre, 2017</span>
 									</div>-->
-									<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+									<p>
+                    La misa será en la Parroquia de Nuestra Señora de la Encarnación
+                    y durará aproximadamente unos 45 minutos. Dado que el sábado hay
+                    mercadillo en los alrededores recomendamos no apurar mucho
+                    el tiempo y dejar el coche directamente en el parking de la
+                    Terraza Carmona.
+                  </p>
 								</div>
 							</div>
 							<div class="col-md-6 col-sm-6 text-center">
@@ -272,7 +286,13 @@ background-position:center 0 !important;
 										<span>Septiembre, 2017</span>
 									</div>
                   -->
-									<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+									<p>
+                    El cocktel de bienvenidas empezará aproximadamente a las 13:30
+                    y durará hasta las 15:00 que llegaremos de hacernos las fotos.
+                    Desde las 15:00 a las 18:00 aproximadamente nos daremos una
+                    buena comilona (guardad apetito) y desde las 18:00 hasta que
+                    el cuerpo aguante tendremos la barra libre.
+                  </p>
 								</div>
 							</div>
 						</div>
@@ -299,7 +319,7 @@ background-position:center 0 !important;
 							<div class="timeline-panel">
 								<div class="timeline-heading">
 									<h3 class="timeline-title">El primer encuentro</h3>
-									<span class="date">Noviembre 26, 2005</span>
+									<span class="date">26 de Noviembre, 2005</span>
 								</div>
 								<div class="timeline-body">
 									<p>
@@ -333,7 +353,7 @@ background-position:center 0 !important;
 							<div class="timeline-panel">
 								<div class="timeline-heading">
 									<h3 class="timeline-title">La mudanza</h3>
-									<span class="date">Enero 31, 2016</span>
+									<span class="date">31 de Enero, 2016</span>
 								</div>
 								<div class="timeline-body">
 									<p>
@@ -352,11 +372,12 @@ background-position:center 0 !important;
 							<div class="timeline-panel">
 								<div class="timeline-heading">
 									<h3 class="timeline-title">Lo mejor de nuestras vidas</h3>
-									<span class="date">Septiembre, 2016</span>
+									<span class="date">23 de Septiembre, 2016</span>
 								</div>
 								<div class="timeline-body">
 									<p>
-                      🍼 👶🏻 💩 😴 🤗 😫 😂 😬 😚 💤
+                      Una mesecitos más tarde llegó José ( 👶 ), y con él muchas
+                      otras cosas: 🍼 🏻 💩 😴 🤗 😫 😂 😬 😚 💤 ...
                   </p>
 								</div>
 							</div>
@@ -366,12 +387,15 @@ background-position:center 0 !important;
 							<div class="timeline-panel">
 								<div class="timeline-heading">
 									<h3 class="timeline-title">El bodorrio!</h3>
-									<span class="date">Septiembre, 2017</span>
+									<span class="date">16 de Septiembre, 2017</span>
 								</div>
 								<div class="timeline-body">
 									<p>
+                    Y bueno, este día queremos compartirlo con tod@s vosotros,
+                    y que <strong>forméis parte de nuestra historia</strong>: 💒 👰 👨🏻 🎉 💅 👏
+                    💪 😭 😬 😎 🤗 🎁 🍴 🍹 🍸 🍷 🍻 🍺 🎊 💘 👯 ... ¡¡y mucho más!!
 
-💒👰🏼👨🏻
+
                   </p>
 								</div>
 							</div>
